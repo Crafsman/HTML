@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <script>
+    function myFunction1() {
+        document.getElementById('demo').innerHTML = "JS in head";
+    }
+    </script>
+</head>
+<body>
+    <h2>JS in head</h2>
+
+    <p id="demo">A Paragraph</p>
+
+    <button type="button" onclick="myFunction1()">JS in head</button>
+
+    <button type="button" onclick="myFunction2()">JS in bogy</button>
+
+    <script>
+    function myFunction2() {
+        document.getElementById('demo').innerHTML = "JS in body";
+    }
+    </script>
+</body>
+</html>
